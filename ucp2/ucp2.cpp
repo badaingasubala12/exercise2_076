@@ -80,8 +80,8 @@ int main() {
 	bd = new Lingkaran();
 	bd->input();
 	int radius = bd->getX();
-	cout << "Luas Lingkaran = " << bd->Luas(r) << endl;
-	cout << "Keliling Lingkaran = " << bd->Keliling(r) << endl;
+	cout << "Luas Lingkaran = " << bd->Luas(radius) << endl;
+	cout << "Keliling Lingkaran = " << bd->Keliling(radius) << endl;
 	delete bd;
 
 	// Membuat objek Bujursangkar
